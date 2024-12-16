@@ -1,0 +1,49 @@
+/* Small Screens */
+
+@media(max-width: 640px){
+
+    header {
+        font-size: 10px;
+        flex-direction: column;
+    }
+
+    .nav-options {
+        flex-direction: column;
+    }
+
+    .logo {
+        width:100%;
+        margin: 1rem 0px;
+    }
+
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-image-container {
+        width: 50%;
+    }
+
+    .about-description-container {
+        margin-top:2rem;
+        font-size: 0.9rem;
+    }
+
+    .about-description-container h2 {
+        font-size: 1rem;
+    }
+
+    .about-description-container p{
+        font-size: 0.7rem;
+    }
+
+        .text-label {
+            
+        }
+}
+
+@media (min-width: 641px) and (max-width:1007px) {
+    html {
+        font-size: 13px;
+    }
+}

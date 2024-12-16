@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %} About Me {% endblock title %}
+{% load static %}
+
+{% block content %}
+<section class="about-section center-row">
+
+    <div class="about-image-container center-row">
+        <img src="{% static './img/logo.png' %}" alt="logo">
+    </div>
+
+    <div class="about-description-container center-column">
+        <h1>My Role as a Developer</h1>
+        <h2>Nicholas Johnson</h2>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati fugit doloribus deserunt laudantium in
+            cupiditate ea minus ut asperiores, sed voluptate aliquid tenetur delectus cumque atque eveniet neque id
+            numquam voluptatem labore hic reiciendis dolor ducimus nihil? Earum nesciunt odio laboriosam neque vel
+            incidunt, ea tempora ipsum? Esse quisquam cumque expedita sit, iste voluptatum temporibus sunt quidem veniam
+            veritatis qui! Voluptatem sapiente quaerat maiores quibusdam id ipsa, minus, porro inventore ipsam assumenda
+            expedita voluptatum, consectetur sed? Fuga alias quaerat perspiciatis odio accusamus. Voluptatibus enim quis
+            debitis nulla provident delectus ex voluptate, doloribus in sapiente eos odio nisi porro facere maiores.
+            <br> <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quos esse nesciunt mollitia, error
+            doloremque nihil, saepe repellat itaque dignissimos eaque quo, impedit doloribus placeat pariatur tempore
+            cum cumque sint labore. Distinctio amet eligendi recusandae necessitatibus ab molestiae labore molestias
+            enim consequatur quibusdam assumenda adipisci, dolores reiciendis. In praesentium reiciendis culpa pariatur
+            deserunt doloribus esse qui eligendi, nemo quae tenetur quas. Expedita neque quod sit autem fugit assumenda,
+            eveniet voluptates totam tempore libero magnam et.
+        </p>
+
+        <div class="skills-container center-column">
+            <h2>My Skills</h2>
+            <div class="skills-list center-row">
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+                <label class="text-label">Skill</label>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content %}
